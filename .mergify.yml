@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm2 target identity stable 1366508364
+    conditions:
+      - base = main
+    actions:
+      comment:
+        message: VM2-TARGET-ID-STABLE-1366508364
